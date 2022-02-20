@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Sypto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light">
+ <div class="header">
+   <h1>Sypto</h1>
+ </div>
+  
+  
+ <nav class="navbar">
+   <ul class="navbar-nav">
+     <li class="nav-item">Home</li>
+     <li class="nav-item">About</li>
+ 
+     <!-- Dropdown -->
+ 
+     <li class="nav-item has-dropdown">
+       <a href="#">Theme</a>
+       <ul class="dropdown">
+         <li class="dropdown-item">
+           <a id="light" href="#">light</a>
+         </li>
+         <li class="dropdown-item">
+           <a id="dark" href="#">dark</a>
+         </li>
+         <li class="dropdown-item">
+           <a id="solar" href="#">solarize</a>
+         </li>
+       </ul>
+     </li>
+ 
+     <li class="nav-item">Login</li>
+   </ul>
+ </nav>
+  <div class="data-table">
+    <table class="tables ">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Currency</th>
+          <th scope="col" id="Cp">CurrentPrice</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr >
+          <td>bitcoin</td>
+          <td>$usd</td>
+          <td id="price"></td>
+        </tr>
+         <tr>
+           <td>ethereum</td>
+           <td>$usd</td>
+           <td id="price1"></td>
+         </tr>
+          <tr>
+            <td>dogecoin</td>
+            <td>$usd</td>
+            <td id="price2"></td>
+          </tr>
+      </tbody>
+    </table> 
+    <div class="Content">
+      <p>Main content tommorow!!</p>
+    </div>
+  </div>
+   <div class="footer-dark">
+     <footer>
+       <div class="container">
+         <div class="row">
+           <div class="col-sm-6 col-md-3 item">
+             <h3>Services</h3>
+             <ul>
+               <li><a href="#">Web design</a></li>
+               <li><a href="#">Development</a></li>
+               <li><a href="#">Hosting</a></li>
+             </ul>
+           </div>
+           <div class="col-sm-6 col-md-3 item">
+             <h3>About</h3>
+             <ul>
+               <li><a href="https://company-website-first-design.pages.dev/#">Company</a></li>
+               <li><a href="#">Team</a></li>
+               <li><a href="#">Careers</a></li>
+               <li><a href="https://www.coingecko.com">Api use</a></li>
+             </ul>
+           </div>
+           <div class="col-md-6 item text">
+             <h3>Company Name</h3>
+             <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+           </div>
+           <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+         </div>
+         <p class="copyright">Company Name © 2018</p>
+       </div>
+     </footer>
+   </div>
+ 
+  <script src="main.js"></script>
+</body>
+</html>
