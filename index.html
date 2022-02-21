@@ -9,38 +9,23 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="light">
- <div class="header">
-   <h1>Sypto</h1>
- </div>
+
+<body id="light">
+  <header id="Head">
+    <h1>Sypto</h1>
+  </header>
   
-  
- <nav class="navbar">
-   <ul class="navbar-nav">
+ <nav id="navbar">
+   <ul id="navbar-nav">
      <li class="nav-item">Home</li>
      <li class="nav-item">About</li>
  
      <!-- Dropdown -->
- 
-     <li class="nav-item has-dropdown">
-       <a href="#">Theme</a>
-       <ul class="dropdown">
-         <li class="dropdown-item">
-           <a id="light" href="#">light</a>
-         </li>
-         <li class="dropdown-item">
-           <a id="dark" href="#">dark</a>
-         </li>
-         <li class="dropdown-item">
-           <a id="solar" href="#">solarize</a>
-         </li>
-       </ul>
-     </li>
- 
+     <button onclick="myFunction()">darkmode</button>
      <li class="nav-item">Login</li>
    </ul>
  </nav>
-  <div class="data-table">
+  <div id="data-table">
     <table class="tables ">
       <thead>
         <tr>
@@ -51,24 +36,69 @@
       </thead>
       <tbody>
         <tr >
-          <td>bitcoin</td>
+          <td>Bitcoin</td>
           <td>$usd</td>
           <td id="price"></td>
         </tr>
          <tr>
-           <td>ethereum</td>
+           <td>Ethereum</td>
            <td>$usd</td>
            <td id="price1"></td>
          </tr>
           <tr>
-            <td>dogecoin</td>
+            <td>Tether</td>
             <td>$usd</td>
             <td id="price2"></td>
           </tr>
+           <tr>
+             <td>Binancecoin</td>
+             <td>$usd</td>
+             <td id="price3"></td>
+           </tr>
+            <tr>
+              <td>Dogecoin</td>
+              <td>$usd</td>
+              <td id="price4"></td>
+            </tr>
+             <tr>
+               <td>Cardano</td>
+               <td>$usd</td>
+               <td id="price5"></td>
+             </tr>
+              <tr>
+                <td>Solana</td>
+                <td>$usd</td>
+                <td id="price6"></td>
+              </tr>
+              <tr>
+                <td>Ripple</td>
+                <td>$usd</td>
+                <td id="price7"></td>
+              </tr>
+               <tr>
+                 <td>Litecoin</td>
+                 <td>$usd</td>
+                 <td id="price8"></td>
+               </tr>
       </tbody>
     </table> 
     <div class="Content">
-      <p>Main content tommorow!!</p>
+      <h3>Top 3 coins:</h3>
+      <div id="BTC">
+        <img src="bitcoin.jpeg">
+        <h1>Bitcoin</h1>
+        <span id="usd1">$</span>
+      </div>
+      <div id="BTC">
+        <img src="litecoin.png">
+        <h1>Litecoin</h1>
+        <span id="usd2">$</span>
+      </div>
+      <div id="BTC">
+        <img src="eth.png">
+        <h1>Ethereum</h1>
+        <span id="usd3">$</span>
+      </div>
     </div>
   </div>
    <div class="footer-dark">
@@ -93,16 +123,15 @@
              </ul>
            </div>
            <div class="col-md-6 item text">
-             <h3>Company Name</h3>
+             <h3>SORWEB</h3>
              <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
            </div>
-           <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
-         </div>
-         <p class="copyright">Company Name © 2018</p>
+         <p class="copyright">SORWEB © 2018</p>
        </div>
      </footer>
    </div>
  
   <script src="main.js"></script>
+
 </body>
 </html>
